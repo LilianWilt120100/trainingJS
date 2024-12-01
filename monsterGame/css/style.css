@@ -1,0 +1,105 @@
+#perso{
+    
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+    
+}
+
+#adversaire{
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-family :Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 3px;
+
+}
+
+#flex{
+    display: flex;
+}
+
+
+#attaqueMoi{
+    width: 50%;
+    /*padding-left: 21em;*/
+    text-align: center;
+
+    list-style-type: none;
+
+}
+
+#attaqueAdv{
+    width: 50%;
+    /*padding-left: 21em;*/
+    text-align: center;
+
+    list-style-type: none;
+    
+}
+
+#attaqueMoi a{
+    background-color: rgb(216, 216, 216);
+    color: #000000;
+    text-decoration: none;
+    list-style-position:inside;
+    border: 1px solid black;
+    
+}
+#attaqueAdv a{
+    background-color: rgb(216, 216, 216);
+    color: #000000;
+    text-decoration: none;
+    list-style-position:inside;
+    border: 1px solid black;
+
+}
+
+#attaqueMoi a:hover {
+    background-color: rgb(180, 180, 180);
+    color: #000000;
+}
+#attaqueAdv a:hover {
+    background-color: rgb(180, 180, 180);
+    color: #000000;
+}
+
+#attaqueAdv li{
+    margin-bottom: 10px;
+
+}
+
+#attaqueMoi li{
+    margin-bottom: 10px;
+}
+
+
+#infosMoi{
+    width: 50%;
+    /*padding-left: 21em;*/
+    text-align: center;
+
+    list-style-type: none;
+
+}
+
+#infosAdv{
+    width: 50%;
+    /*padding-left: 21em;*/
+    text-align: center;
+
+    list-style-type: none;
+    
+}
+
+canvas{
+    
+        margin-right: auto;
+        margin-left: auto;
+}
